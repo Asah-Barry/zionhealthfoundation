@@ -404,13 +404,9 @@ There is actually a reduced risk of hospitalization for about 72% of  infants wh
             <img src="image/pic5.jpeg" alt="">
         </div>
 
-        <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
+        <form action="" method="post">
         <?php
-            if(isset($message)) {
-                foreach($message as $message) {
-                echo'<p class ="message">'.$message.'</p>';
-            }
-            }
+
         ?>
       
             <h3>Make donation</h3><br><br>
